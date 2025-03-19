@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Mother's Day! 💖</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>💐 Happy Mother’s Day! 💐</h1>
+        <p>Click the button below to reveal a special message for Mom! 💌</p>
+    </header>
+
+    <!-- 🎁 Gift Section -->
+    <section class="gifts">
+        <h2>🎁 Click to Reveal a Surprise Gift for Mom! 🎁</h2>
+        <button onclick="showLoveNotes()">💌 Click-to-Reveal Messages</button>
+
+        <div class="gift-container" id="gift-container">
+            <div class="gift-box"><div class="lid"></div><div class="box"></div><p class="gift-label">Gift 1</p></div>
+            <div class="gift-box"><div class="lid"></div><div class="box"></div><p class="gift-label">Gift 2</p></div>
+            <div class="gift-box"><div class="lid"></div><div class="box"></div><p class="gift-label">Gift 3</p></div>
+        </div>
+
+        <div id="gift-message"></div>
+    </section>
+
+    <!-- 🎮 Minigames Section -->
+    <section class="games">
+        <h2>🎮 Fun Games for Mom! 🎮</h2>
+        <button onclick="startMemoryGame()">🧠 Memory Game</button>
+        <button onclick="startClickerGame()">💖 Clicker Challenge</button>
+        <div id="game-container"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
